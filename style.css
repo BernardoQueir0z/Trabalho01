@@ -16,6 +16,7 @@ body {
 .cabecalho {
   display: flex;
   flex-direction: row;
+
   align-items: center;
   justify-content: space-around;
   padding: 24px;
@@ -25,15 +26,19 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  max-width: fit-content;
+  
 }
 
 .nome-doideira{
   font-family: 'Sarala', sans-serif;
   color: #343C45;
   font-weight: 400;
-  font-size: 28px;
+  font-size: 48px;
   margin-left: 10px;
+  width: 100%;
 }
+
 
 .cabecalho-imagem {
   height: 72px;
@@ -62,7 +67,18 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  margin-bottom: 600px;
+  margin-bottom: 100px;
+}
+
+.botoes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.imagem-contato{
+  width: 50%;
+  margin: auto;
 }
 
 .conteudo-principal-escrito {
@@ -75,6 +91,13 @@ body {
   font-family: 'Righteous', cursive;
   font-weight: 400;
   font-size: 64px;
+  color: #343C45;
+}
+
+.conteudo-principal-escrito-titulo-2 {
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 44px;
   color: #343C45;
 }
 
@@ -121,6 +144,7 @@ body {
   align-items: center;
   gap: 24px;
   margin-top: 48px;
+  margin-bottom: 200px;
 }
 
 .conteudo-secundario-titulo {
@@ -128,7 +152,7 @@ body {
   padding-top: 48px;
   font-family: 'Righteous', cursive;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 48px;
   color: #343C45;
   margin-bottom: 16px;
 }
@@ -158,3 +182,4 @@ body {
   margin-top: 20px;
   color: #343C45;
 }
+
